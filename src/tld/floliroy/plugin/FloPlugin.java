@@ -19,6 +19,7 @@ public class FloPlugin extends JavaPlugin {
 	@Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equalsIgnoreCase("mycommand")) {
+        	//renvoi You ran /mycommand!
             sender.sendMessage("You ran /mycommand!");
             return true;
         }
