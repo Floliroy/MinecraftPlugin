@@ -1,0 +1,11 @@
+main: tld.floliroy.plugin.FloPlugin
+name: FloPlugin
+version: 1.0
+author: Floliroy
+description: My first plugin
+commands:
+    mycommand:
+       description: An example command
+       usage: /mycommand
+       permission: floplugin.mycommand
+       permission-message: You don't have the floplugin.mycommand permission.
