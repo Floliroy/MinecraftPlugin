@@ -7,5 +7,6 @@ commands:
     mycommand:
        description: An example command
        usage: /mycommand
-       permission: floplugin.mycommand
-       permission-message: You don't have the floplugin.mycommand permission.
+    diamond:
+       description: Give a diamond
+       usage: /diamond
